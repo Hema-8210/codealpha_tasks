@@ -1,0 +1,17 @@
+print("Simple Chatbot")
+print("Type bye to exit")
+while True:
+    user_message = input("You : ")
+    if user_message == "hello":
+        print("Bot : Hi!")
+    elif user_message == "how are you":
+        print("Bot : I am Fine. How are you?")
+    elif user_message == "what is your name":
+        print("Bot : My name is CodeBot.")
+    elif user_message == "good morning":
+        print("Bot : Good Morning!")
+    elif user_message == "bye":
+        print("Bot : Goodbye")
+        break
+    else:
+        print("Bot : Sorry, I don't understand.")
